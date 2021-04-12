@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource": "^0.8.0",
+    "apollo-datasource-rest": "^0.11.0",
+    "apollo-server": "^2.22.2",
+    "apollo-server-testing": "^2.22.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "isemail": "^3.2.0",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  }
+}
