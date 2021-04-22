@@ -28,6 +28,7 @@ const Grid = () => {
           field='model'
           sortable={true}
           filter={true}
+          checkboxSelection={true}
         ></AgGridColumn>
         <AgGridColumn
           field='price'
