@@ -1,8 +1,8 @@
-import { ADD_TODO, COMPLETE_TODO } from './actions';
+import { ADD_TODO, COMPLETE_TODO } from '../actions';
 
 const initialState = [];
 
-export function todoApp(previosState = initialState, action) {
+function todosReducer(previosState = initialState, action) {
   if (action.type === ADD_TODO) {
     return [...previosState, { text: action.text, done: false }];
   }
@@ -18,3 +18,5 @@ export function todoApp(previosState = initialState, action) {
 
   return previosState;
 }
+
+export default todosReducer;
